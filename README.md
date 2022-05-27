@@ -2,7 +2,7 @@
 <img src="https://komarev.com/ghpvc/?username=sri-nivas1227&color=orange&style=flat-square" alt="adreaskar" />
 </br>
 <!-- banner -->
-<image src="./assets/GitHub Banner2.png" alt="Banner">
+<image src="./assets/GitHub Banner2 (1).png" alt="Banner">
 
 # Hi There! <img src="https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif" width="90">
 I'm Srinivas Mekala! I'm a Computers student from Sreenidhi Institute of Science and Technology.
