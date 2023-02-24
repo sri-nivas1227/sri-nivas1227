@@ -10,17 +10,14 @@ Aspiring to become a **_DevOps Engineer_**.
 </br>
 I am currently learning ***Cloud*** and ***Docker***
 
-- I'm a DevOps enthusiast.
+- I'm a novice full stack developer
 - I love Hackathons
 - I love to contribute to Open soruce💯
-- Inspired by [Kunal Kushwaha](https://github.com/kunal-kushwaha/) and [Eddie Jaoude](https://github.com/eddiejaoude) 😻
   
 ### Dreaming to become a **Digital Nomad**✈️ and travel the world😃
 
 ## My Skills:
  ### I'm good at 🧑🏻‍💻:
-- Docker
-- CI/CD
 - Linux CLI
 - Java
 - Python
