@@ -6,9 +6,9 @@
 
 # Hi There! <img src="https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif" width="90">
 I'm Srinivas Mekala! I'm a Computers student from Sreenidhi Institute of Science and Technology.
-Aspiring to become a **_DevOps Engineer_**.
+Aspiring to become a **Full Stack Developer**.
 </br>
-I am currently learning ***Cloud*** and ***Docker***
+I am currently learning **MERN Stack**
 
 - I'm a novice full stack developer
 - I love Hackathons
