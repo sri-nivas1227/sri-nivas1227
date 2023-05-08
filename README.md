@@ -2,29 +2,26 @@
 <img src="https://komarev.com/ghpvc/?username=sri-nivas1227&color=orange&style=flat-square" alt="adreaskar" />
 </br>
 <!-- banner -->
-<image src="./assets/GitHub Banner2 (1).png" alt="Banner">
+<!-- <image src="./assets/GitHub Banner2 (1).png" alt="Banner"> -->
 
 # Hi There! <img src="https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif" width="90">
-I'm Srinivas Mekala! I'm a Computers student from Sreenidhi Institute of Science and Technology.
-Aspiring to become a **Full Stack Developer**.
+I'm Srinivas Mekala! I'm an aspiring **Full Stack Developer**.
 </br>
-I am currently learning **MERN Stack**
+I am currently working with **React & Flask**
 
-- I'm a novice full stack developer
+- Currently working as a Backend Developer at [Kalakumbh](https://github.com/Kalakumbh)
 - I love Hackathons
 - I love to contribute to Open soruce💯
+- I write blogs
   
-### Dreaming to become a **Digital Nomad**✈️ and travel the world😃
 
-## My Skills:
- ### I'm good at 🧑🏻‍💻:
-- Linux CLI
-- Java
-- Python
-- HTML, CSS & JS
+## Skills:
+- Flask
+- REST APIs
+- Docker
 - React
-- Computer Networks
-- AWS fundamentals
+- Tailwind CSS
+- MongoDB
 #### Reach me through📞:
  [<img src="https://img.icons8.com/clouds/100/000000/gmail-new.png" height ="50px" width= "50px" >](mailto:srinivasmekala1227@gmail.com) &nbsp; &nbsp;[<img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" height ="40px" width= "40px">](https://wa.me/+919666986510)
 
