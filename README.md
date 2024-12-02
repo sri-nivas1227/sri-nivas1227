@@ -1,5 +1,5 @@
 # Hi There! <img src="https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif" width="90">
-I'm Srinivas Mekala! I'm an aspiring **Full Stack Developer**.
+I'm **Srinivas Mekala!** A **Full Stack Developer**.
 </br>
 Previously worked as an SDE @OneAssure and Backend Developer @KalaKumbh ArtHub
 
