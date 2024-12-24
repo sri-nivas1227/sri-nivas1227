@@ -1,14 +1,18 @@
 "use client";
 import Image from "next/image";
-import srinivas from "@/app/about/assets/srinivas.jpg";
-import file from "@/app/about/assets/file.svg";
+import srinivas from "@/app/assets/srinivas.jpg";
+import file from "@/app/assets/file.svg";
+
 export default function About() {
   const handleDownloadResume = () => {
     window.open("./srinivas-mekala-resume.pdf", "_blank");
   };
 
   return (
-    <div className="bg-[#252525] min-w-screen min-h-screen flex flex-col justify-center items-center text-white">
+    <div
+      id="about"
+      className="bg-[#252525] min-w-screen min-h-screen flex flex-col justify-center items-center text-white"
+    >
       <div className="w-4/5">
         <h2 className="text-3xl font-bold m-2">
           <span className="text-yellow-400">A</span>bout{" "}
