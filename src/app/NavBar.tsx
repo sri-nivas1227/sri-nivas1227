@@ -1,5 +1,6 @@
 import { Knewave } from "next/font/google";
 import RevealComp from "@/components/RevealComp";
+import Link from "next/link";
 const knewave = Knewave({
   subsets: ["latin"],
   weight: "400",
@@ -11,14 +12,27 @@ const NavBar = () => {
       <nav className="">
         <div className="flex justify-between items-center">
           <RevealComp thresholdValue={0.5} duration="1s" x={-100} y={0}>
-            <h1 className={`text-3xl text-white ${knewave.className}`}>
+            <Link
+              href={"/"}
+              className={`text-3xl text-white ${knewave.className}`}
+            >
               <span className="text-yellow-400">S</span>rinivas{" "}
               <span className="text-yellow-400">M</span>ekala
-            </h1>
+            </Link>
           </RevealComp>
           <div className="flex gap-2 font-semibold text-xl text-zinc-400">
-            <div className="hover:text-zinc-200 cursor-pointer">About</div>
-            <div className="hover:text-zinc-200 cursor-pointer">Contact</div>
+            <Link
+              href={"#about"}
+              className="hover:text-zinc-200 cursor-pointer"
+            >
+              About
+            </Link>
+            <Link
+              href={"/contact"}
+              className="hover:text-zinc-200 cursor-pointer"
+            >
+              Contact
+            </Link>
           </div>
         </div>
       </nav>

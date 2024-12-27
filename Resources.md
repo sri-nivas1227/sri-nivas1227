@@ -1,3 +1,2 @@
-
-
 - [Content Reveal on scroll](https://codewithmarish.com/post/scroll-reveal-hide-animation-nextjs)
+- [Flip Cards](https://dev.to/mematthew123/how-to-3d-flip-cards-using-tailwind-css-a2f)

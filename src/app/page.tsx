@@ -4,6 +4,7 @@ import RevealComp from "@/components/RevealComp";
 
 import { Knewave } from "next/font/google";
 import Work from "./work";
+import Projects from "./Projects";
 const knewave = Knewave({
   subsets: ["latin"],
   weight: "400",
@@ -33,6 +34,7 @@ export default function Home() {
         <div className="w-11/12 flex flex-col justify-center">
           <About />
           <Work />
+          <Projects />
         </div>
       </div>
     </div>

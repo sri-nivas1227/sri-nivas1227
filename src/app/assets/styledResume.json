@@ -89,10 +89,43 @@
   "projects": [
     {
       "order": 1,
-      "name": "FinBuddy - Personal Finance Tracker",
+      "title": "FinBuddy",
+      "tagline": "Personal Finance Tracker",
+      "logo": "https://i.imgur.com/OIpZS3x.png?1",
       "preview_link": "https://finbuddy-app.netlify.app/",
+      "github_link": "https://github.com/sri-nivas1227/finbuddy-frontend",
       "preview_image": "https://i.imgur.com/JA8pzzV.jpg",
-      "description": "A full-stack web application that helps users track their income, expenses, and savings goals. Users can create accounts, log transactions, and view detailed reports to manage their finances effectively. Integrated a calculator feature and enhanced it's functionality by seamlessly embedding it into the broader application workflow. A responsive UI built with React, Tailwind CSS, with a robust ExpressJS backend and MongoDB database."
+      "description": "A full-stack web application built with MERN stack, that helps users track their income, expenses. Users can create accounts, log transactions, and view detailed reports to manage their finances effectively. Integrated a calculator feature into the broader application workflow."
+    },
+    {
+      "order": 2,
+      "title": "AirBnb Clone",
+      "tagline": "A front-end clone of AirBnb",
+      "logo": "https://www.citypng.com/public/uploads/preview/hd-airbnb-symbol-logo-sign-icon-png-image-701751695125377fcceqslrgk.png?v=2024122204",
+      "preview_link": "https://srinivas-air-bnb-clone.netlify.app/",
+      "github_link": "https://github.com/sri-nivas1227/airbnb-clone",
+      "preview_image": "https://i.imgur.com/1Z2ZQ8V.jpg",
+      "description": "A front-end clone of the popular AirBnb website, featuring a responsive design, interactive map, and search functionality. Users can view listings, filter by location and price, and explore detailed property information. Built with React, Tailwind CSS, and Mapbox for the map component."
+    },
+    {
+      "order": 3,
+      "title": "Chatopia",
+      "tagline": "Chat Application",
+      "logo": "https://i.imgur.com/wIvIaCN.png",
+      "github_link": "https://github.com/sri-nivas1227/chatopia-frontend",
+      "preview_link": "https://chatopia-app.netlify.app/",
+      "preview_image": "https://i.imgur.com/1Z2ZQ8V.jpg",
+      "description": "A real-time chat application that allows users to create chat rooms, send messages, and engage in group conversations. Users can join public rooms, create private rooms, and view message history. Implemented using Socket.IO for real-time communication, with a React frontend and a Flask backend."
+    },
+    {
+      "order": 4,
+      "title": "Portfolio",
+      "tagline": "My Personal Website",
+      "logo": "https://www.citypng.com/public/uploads/preview/hd-airbnb-symbol-logo-sign-icon-png-image-701751695125377fcceqslrgk.png?v=2024122204",
+      "preview_link": "https://srinivas-mekala.netlify.app/",
+      "github_link": "https://github.com/sri-nivas1227/sri-nivas1227",
+      "preview_image": "https://i.imgur.com/1Z2ZQ8V.jpg",
+      "description": "You are currently viewing it! Built with Next.js, Tailwind CSS, and deployed on Netlify."
     }
   ]
 }
