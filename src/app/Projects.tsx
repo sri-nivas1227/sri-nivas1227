@@ -1,22 +1,9 @@
 import resumeData from "@/app/assets/styledResume.json";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import Image from "next/image";
 import Link from "next/link";
 import github from "@/app/assets/github.png";
 
 const Projects = () => {
-  const formatDescription = (description: string) => {
-    return description.split("--").map((item, index) => {
-      if (item === "") return null;
-
-      return (
-        <li key={index} className="mb-1 list-disc text-justify">
-          {item}
-        </li>
-      );
-    });
-  };
   return (
     <div className="text-white">
       <h2 className="text-3xl font-bold m-2">
@@ -57,11 +44,20 @@ const Projects = () => {
                     {item.description}
                   </div>
                   <div className="h-1/4 w-full grid grid-cols-2 gap-2 items-center justify-center">
-                    <Link href={item.preview_link} target="_blank" className="p-2 border border-white rounded-xl">
+                    <Link
+                      href={item.preview_link}
+                      target="_blank"
+                      className="p-2 border border-white rounded-xl"
+                    >
                       Preview Project
                     </Link>
-                    <Link href={item.github_link} target="_blank" className="p-2 border border-white rounded-xl flex gap-2 items-center justify-center">
-                     <Image src={github} alt="github" width={30} height={30}/> <span className="">Visit Repo</span>
+                    <Link
+                      href={item.github_link}
+                      target="_blank"
+                      className="p-2 border border-white rounded-xl flex gap-2 items-center justify-center"
+                    >
+                      <Image src={github} alt="github" width={30} height={30} />{" "}
+                      <span className="">Visit Repo</span>
                     </Link>
                   </div>
                 </div>
