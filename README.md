@@ -31,7 +31,6 @@ I am currently building [**ArtKart🎨**](https://github.com/sri-nivas1227/artka
 <!-- my github statistics -->
 [![Srinivas's GitHub stats](https://github-readme-stats.vercel.app/api?username=sri-nivas1227)](https://github.com/sri-nivas1227/github-readme-stats)
 
-<!-- My GitHub streak -->
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sri-nivas1227&theme=dark)](https://git.io/streak-stats)
+
 
 
