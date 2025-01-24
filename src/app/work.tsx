@@ -2,6 +2,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import resumeData from "@/app/assets/styledResume.json";
+import Image from "next/image";
 
 const Work = () => {
   const formatDescription = (description: string) => {
@@ -33,7 +34,7 @@ const Work = () => {
               .map((item, index) => (
                 <li key={index} className="mb-10 ms-6">
                   <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -start-5 ring-2 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <img
+                    <Image
                       className="rounded-full shadow-lg"
                       src={item.companyIcon}
                       alt="Bonnie image"
@@ -63,9 +64,7 @@ const Work = () => {
               ))}
           </ol>
         </div>
-        <div className="">
-          {/* Some photos or something */}
-        </div>
+        <div className="">{/* Some photos or something */}</div>
       </div>
     </div>
   );

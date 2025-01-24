@@ -23,7 +23,7 @@ const Projects = () => {
                 {/* Front Face */}
                 <div className="absolute border border-white inset-0 h-full w-full rounded-xl [backface-visibility:hidden] flex flex-col items-center justify-center">
                   <div className="w-full h-4/5 flex justify-center items-center ">
-                    <img
+                    <Image
                       src={item.logo}
                       alt={item.title}
                       className="rounded-full w-20"

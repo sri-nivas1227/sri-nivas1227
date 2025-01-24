@@ -1,6 +1,6 @@
 import { sendEmail } from "@/app/utils/sendEmail";
 
-export async function POST(req: Request, res: Response) {
+export async function POST(req: Request) {
   const data = await req.json();
 
   console.log(data);
@@ -10,8 +10,8 @@ export async function POST(req: Request, res: Response) {
   }`;
   try {
     await sendEmail({ subject: finalSubject, message: finalMessage });
-    return Response.json({ message: "done" }, { status: 200 });
+    return Response.json({ message: "success" }, { status: 200 });
   } catch (error) {
-    return Response.json({ message: "error" }, { status: 500 });
+    return Response.json({ message: "fail", data: error }, { status: 200 });
   }
 }
