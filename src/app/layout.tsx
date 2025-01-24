@@ -3,12 +3,10 @@ import { Shantell_Sans } from "next/font/google";
 import "./globals.css";
 import NavBar from "./NavBar";
 
-
 const shantellSans = Shantell_Sans({
   variable: "--font-shantell-sans",
   subsets: ["latin"],
 });
-
 
 export const metadata: Metadata = {
   title: "Srinivas Mekala",
@@ -30,7 +28,11 @@ export default function RootLayout({
       </head>
       <body className={`${shantellSans.className} relative antialiased`}>
         <NavBar />
-        {children}
+        <div className="bg-[#252525]">
+          <div className=" relative min-w-screen min-h-screen flex flex-col justify-center items-center  text-white">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );
