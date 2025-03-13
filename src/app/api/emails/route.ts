@@ -5,7 +5,7 @@ export async function POST(req: Request) {
 
   console.log(data);
   const finalSubject = `${data.connectionName} wants to connect. Subject: ${data.subject}`;
-  const finalMessage = `Name: ${data.connectionName} \nEmail: ${""}\nMessage: ${
+  const finalMessage = `Name: ${data.connectionName} \nEmail: ${data.email} \nMessage: ${
     data.message
   }`;
   try {
