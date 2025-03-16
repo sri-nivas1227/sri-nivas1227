@@ -1,7 +1,7 @@
 import resumeData from "@/app/assets/styledResume.json";
 import Image from "next/image";
-import Link from "next/link";
-import github from "@/app/assets/github.png";
+// import Link from "next/link";
+// import github from "@/app/assets/github.png";
 
 const Projects = () => {
   return (
