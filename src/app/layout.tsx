@@ -27,11 +27,9 @@ export default function RootLayout({
         <title>Srinivas Mekala</title>
       </head>
       <body className={`${shantellSans.className} relative antialiased`}>
-        <NavBar />
-        <div className="bg-[#252525]">
-          <div className=" relative min-w-screen min-h-screen flex flex-col justify-center items-center  text-white">
-            {children}
-          </div>
+        <div className="bg-[#FAF3E0]">
+          <NavBar />
+          <div className=" relative text-white">{children}</div>
         </div>
       </body>
     </html>

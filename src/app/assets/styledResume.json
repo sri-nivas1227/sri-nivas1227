@@ -43,7 +43,7 @@
       "startDate": "March 2023",
       "endDate": "July 2023",
       "description": "-- Developed Backend server using Python and Flask to support core features of a social media platform for musicians and singers. -- Utilized MongoDB for the primary database and implemented Redis for efficient cache management, optimizing server performance. -- Built and integrated user authentication using Twilio services, ensuring secure user login and account management. -- Implemented real-time chat functionality using SocketIO to facilitate seamless communication between users. -- Managed server testing and deployment processes, ensuring stability and performance on AWS EC2. -- Leveraged Docker for containerization, streamlining development, testing, and production workflows. -- Collaborated with team members using Git and GitHub for version control and code management.",
-      "companyIcon": "https://files.catbox.moe/eyha2a.jpg"
+      "companyIcon": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/kalakumbh.jpg"
     },
     {
       "order": 2,
@@ -52,7 +52,7 @@
       "startDate": "July 2023",
       "endDate": "November 2023",
       "description": "-- Developed a new, responsive user interface for the application using Next.js, Tailwind CSS, and Redux, improving user engagement and performance. -- Collaborated with the backend team to integrate APIs from major health insurers, extending the functionality of the application. -- Contributed to cross-functional team discussions to align front-end development with overall project goals and back-end services. -- Gained hands-on experience in full-stack development, working in an Agile environment to deliver scalable and maintainable solutions. -- Actively participated in code reviews and team meetings, contributing ideas to improve coding standards and software architecture. -- Technologies worked on: Flask, Python, MongoDB, Docker, Next.JS, Google Firebase, TailwindCSS etc..",
-      "companyIcon": "https://files.catbox.moe/felpim.png"
+      "companyIcon": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/OneAssure.png"
     },
     {
       "order": 1,
@@ -61,7 +61,7 @@
       "startDate": "November 2023",
       "endDate": "July 2024",
       "description": "-- Developed and maintained scalable microservices for user and admin functionalities using Flask and MongoDB. -- Implemented Role-Based Access Control (RBAC) to enhance security and streamline application management. -- Designed and deployed containerized applications using Docker, Kubernetes, and AWS, ensuring reliability and scalability. -- Integrated external APIs from health insurers to expand features and improve user interactions. -- Refactored legacy code, adhering to industry best practices for maintainability and performance optimization",
-      "companyIcon": "https://files.catbox.moe/felpim.png"
+      "companyIcon": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/OneAssure.png"
     }
   ],
   "skills": [
@@ -91,7 +91,7 @@
       "order": 1,
       "title": "FinBuddy",
       "tagline": "Personal Finance Tracker",
-      "logo": "https://i.imgur.com/OIpZS3x.png?1",
+      "logo": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/finbuddy.png",
       "preview_link": "https://finbuddy-app.netlify.app/",
       "github_link": "https://github.com/sri-nivas1227/finbuddy-frontend",
       "preview_image": "https://i.imgur.com/JA8pzzV.jpg",
@@ -101,7 +101,7 @@
       "order": 2,
       "title": "AirBnb Clone",
       "tagline": "A front-end clone of AirBnb",
-      "logo": "https://www.citypng.com/public/uploads/preview/hd-airbnb-symbol-logo-sign-icon-png-image-701751695125377fcceqslrgk.png?v=2024122204",
+      "logo": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/airbnb.png",
       "preview_link": "https://srinivas-air-bnb-clone.netlify.app/",
       "github_link": "https://github.com/sri-nivas1227/airbnb-clone",
       "preview_image": "https://i.imgur.com/1Z2ZQ8V.jpg",
@@ -111,7 +111,7 @@
       "order": 3,
       "title": "Chatopia",
       "tagline": "Chat Application",
-      "logo": "https://i.imgur.com/wIvIaCN.png",
+      "logo": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/chatopia.png",
       "github_link": "https://github.com/sri-nivas1227/chatopia-frontend",
       "preview_link": "https://chatopia-app.netlify.app/",
       "preview_image": "https://i.imgur.com/1Z2ZQ8V.jpg",
@@ -121,7 +121,7 @@
       "order": 4,
       "title": "Portfolio",
       "tagline": "My Personal Website",
-      "logo": "https://www.citypng.com/public/uploads/preview/hd-airbnb-symbol-logo-sign-icon-png-image-701751695125377fcceqslrgk.png?v=2024122204",
+      "logo": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/portfolio-icon.png",
       "preview_link": "https://srinivas-mekala.netlify.app/",
       "github_link": "https://github.com/sri-nivas1227/sri-nivas1227",
       "preview_image": "https://i.imgur.com/1Z2ZQ8V.jpg",

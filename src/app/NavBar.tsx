@@ -7,27 +7,26 @@ const knewave = Knewave({
 
 const NavBar = () => {
   return (
-    <div className="w-full fixed p-2 bg-[#252525] z-10">
+    <div className="w-full fixed p-2 z-10 bg-[#FAF3E0]">
       <nav className="">
         <div className="flex justify-between items-center">
           <Link
             href={"/"}
-            className={`text-3xl text-white ${knewave.className}`}
-            data-aos="fade-up"
+            className={`text-3xl text-[#333] ${knewave.className} flex`}
+            // data-aos="fade-up"
           >
-            <span className="text-yellow-400">S</span>rinivas{" "}
-            <span className="text-yellow-400">M</span>ekala
+            <span className="text-[#4169E1]">S</span>
+            <span className="sm:block hidden">rinivas </span>
+            <span className="text-[#4169E1]">M</span>
+            <span className="sm:block hidden">ekala</span>
           </Link>
-          <div className="flex gap-2 font-semibold text-xl text-zinc-400">
-            <Link
-              href={"#about"}
-              className="hover:text-zinc-200 cursor-pointer"
-            >
+          <div className="flex gap-2 font-semibold text-xl text-[#444]">
+            <Link href={"#about"} className="hover:text-[#333] cursor-pointer">
               About
             </Link>
             <Link
               href={"/contact"}
-              className="hover:text-zinc-200 cursor-pointer"
+              className="hover:text-[#333] cursor-pointer"
             >
               Contact
             </Link>
