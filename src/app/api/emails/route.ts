@@ -4,10 +4,8 @@ export async function POST(req: Request) {
   const data = await req.json();
 
   console.log(data);
-  const finalSubject = `${data.connectionName} wants to connect. Subject: ${data.subject}`;
-  const finalMessage = `Name: ${data.connectionName} \nEmail: ${data.email} \nMessage: ${
-    data.message
-  }`;
+  const finalSubject = `${data.connectionName} saw your Portfolio and says: "${data.subject}"`;
+  const finalMessage = `Name: ${data.connectionName} \nEmail: ${data.email} \nMessage: ${data.message}`;
   try {
     await sendEmail({ subject: finalSubject, message: finalMessage });
     return Response.json({ message: "success" }, { status: 200 });
