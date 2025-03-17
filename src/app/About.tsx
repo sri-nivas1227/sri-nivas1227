@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div id="about" className="w-4/5 my-4 text-[#333]">
+    <div className="w-4/5 my-4 text-[#333]">
       <h2 className="text-3xl font-bold">
         <span className="text-[#4169E1]">A</span>
         <span className="">bout </span>

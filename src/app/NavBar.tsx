@@ -21,7 +21,7 @@ const NavBar = () => {
             <span className="sm:block hidden">ekala</span>
           </Link>
           <div className="flex gap-2 font-semibold text-xl text-[#444]">
-            <Link href={"#about"} className="hover:text-[#333] cursor-pointer">
+            <Link href={"/#about"} className="hover:text-[#333] cursor-pointer">
               About
             </Link>
             <Link
