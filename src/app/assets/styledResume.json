@@ -1,6 +1,6 @@
 {
-  "firstName": "John",
-  "lastName": "Doe",
+  "firstName": "Srinivas",
+  "lastName": "Mekala",
   "email": "srinivasmekala1227@gmail.com",
   "phone": "123-456-7890",
   "homePageSubText": "I am a full stack developer with a passion for creating beautiful and functional user experiences.",
@@ -89,6 +89,16 @@
   "projects": [
     {
       "order": 1,
+      "title": "CareerMate",
+      "tagline": "A Personalized Application to Streamline Job Search",
+      "logo": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/finbuddy.png",
+      "preview_link": "#",
+      "github_link": "https://github.com/sri-nivas1227/CareerMate",
+      "preview_image": "https://i.imgur.com/JA8pzzV.jpg",
+      "description": "A full-stack web application built with MERN stack, that helps users track their income, expenses. Users can create accounts, log transactions, and view detailed reports to manage their finances effectively. Integrated a calculator feature into the broader application workflow."
+    },
+    {
+      "order": 3,
       "title": "FinBuddy",
       "tagline": "Personal Finance Tracker",
       "logo": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/finbuddy.png",
@@ -98,8 +108,8 @@
       "description": "A full-stack web application built with MERN stack, that helps users track their income, expenses. Users can create accounts, log transactions, and view detailed reports to manage their finances effectively. Integrated a calculator feature into the broader application workflow."
     },
     {
-      "order": 2,
-      "title": "AirBnb Clone",
+      "order": 4,
+      "title": "AirBnb",
       "tagline": "A front-end clone of AirBnb",
       "logo": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/airbnb.png",
       "preview_link": "https://srinivas-air-bnb-clone.netlify.app/",
@@ -108,7 +118,7 @@
       "description": "A front-end clone of the popular AirBnb website, featuring a responsive design, interactive map, and search functionality. Users can view listings, filter by location and price, and explore detailed property information. Built with React, Tailwind CSS, and Mapbox for the map component."
     },
     {
-      "order": 3,
+      "order": 5,
       "title": "Chatopia",
       "tagline": "Chat Application",
       "logo": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/chatopia.png",
@@ -118,7 +128,7 @@
       "description": "A real-time chat application that allows users to create chat rooms, send messages, and engage in group conversations. Users can join public rooms, create private rooms, and view message history. Implemented using Socket.IO for real-time communication, with a React frontend and a Flask backend."
     },
     {
-      "order": 4,
+      "order": 6,
       "title": "Portfolio",
       "tagline": "My Personal Website",
       "logo": "https://sri-misc-bucket.s3.us-east-2.amazonaws.com/portfolio/portfolio-icon.png",
