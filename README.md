@@ -2,22 +2,23 @@
 # Hi There! <img src="https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif" width="90">
 I'm Srinivas Mekala! I'm a developer excited about coding and software architecture. I'm pursing an MS degree in Computer Science at UAlbany, NY, US.
 </br>
-I am currently building [**ArtKart🎨**](https://github.com/sri-nivas1227/artkart), a place for artists.
+I am currently building [**CareerMate🎨**](https://github.com/sri-nivas1227/CareerMate), a personalized tool for Job Hunters.
 
  ## I'm good at 🧑🏻‍💻:
- - Next.Js
- - Express.Js
- - React
- - Flask
- - Python
- - Tailwind CSS 
- - Docker
- - AWS
- - CI/CD
- - Linux CLI
- - Java
- - HTML, CSS & JS
- - Computer Networks
+ Next.Js
+ | Express.Js
+ | React
+ | Flask
+ | Fastapi
+ | Python
+ | Tailwind CSS 
+ | Docker
+ | AWS
+ | CI/CD
+ | Linux CLI
+ | Java
+ | HTML, CSS & JS
+ | Computer Networks
 
 #### Reach me through📞:
  [<img src="https://img.icons8.com/clouds/100/000000/gmail-new.png" height ="50px" width= "50px" >](mailto:srinivasmekala1227@gmail.com) &nbsp; &nbsp;[<img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" height ="40px" width= "40px">](https://wa.me/+919666986510)
