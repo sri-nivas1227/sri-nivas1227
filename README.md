@@ -2,7 +2,7 @@
 # Hi There! <img src="https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif" width="90">
 I'm Srinivas Mekala! I'm a developer excited about coding and software architecture. I'm pursing an MS degree in Computer Science at UAlbany, NY, US.
 </br>
-I am currently building [**CareerMate🎨**](https://github.com/sri-nivas1227/CareerMate), a personalized tool for Job Hunters.
+I am currently building [**CareerMate**](https://github.com/sri-nivas1227/CareerMate), a personalized tool for Job Hunters.
 
  ## I'm good at 🧑🏻‍💻:
  Next.Js
