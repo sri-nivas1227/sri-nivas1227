@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { Knewave } from "next/font/google";
 import Work from "./work";
 import Projects from "./Projects";
+import Footer from "./Footer";
 const knewave = Knewave({
   subsets: ["latin"],
   weight: "400",
@@ -29,12 +30,13 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div id="about" className="flex flex-col items-center justify-center">
+      <div id="about" className="flex flex-col items-center justify-center mb-6">
         <About />
         <Work />
 
         <Projects />
       </div>
+      <Footer />
     </div>
   );
 }

@@ -12,15 +12,15 @@ const Projects = () => {
         rojects
       </h2>
       <hr className="md: w-1/3" />
-      <div className="p-2 grid md:grid-cols-3 gap-5">
+      <div className="p-2 grid md:grid-cols-3 gap-10">
         {resumeData.projects
           .sort((a, b) => a.order - b.order)
           .map((item, index) => (
             <div
               key={index}
-              className="bg-[#f2f2f2] rounded-xl p-2 md:p-5 shadow-2xl flex md:flex-row flex-col justify-between items-center"
+              className="bg-[#c5603a]/70 shadow-black border-[3px] border-black rounded-xl p-2 md:p-2 md:py-6 shadow-2xl grid md:grid-cols-[90%_10%] justify-between items-center"
             >
-              <div className="flex justify-around items-center ">
+              <div className=" flex justify-around items-center ">
                 <Image
                   src={item.logo}
                   alt={item.title}
@@ -37,11 +37,11 @@ const Projects = () => {
                   </span>
                 </div>
               </div>
-              <div className="p-2 flex md:flex-col gap-3 items-center justify-center">
+              <div className=" flex md:flex-col gap-3 items-center justify-center">
                 <Link
                   href={item.preview_link}
                   target="_blank"
-                  className="flex gap-1 bg-white rounded-full p-1 items-center justify-center"
+                  className="flex gap-1 rounded-full p-1 items-center justify-center"
                 >
                   <Image
                     src={linkIcon}
@@ -56,7 +56,7 @@ const Projects = () => {
                 <Link
                   href={item.github_link}
                   target="_blank"
-                  className="flex gap-1 bg-white rounded-xl p-1 items-center justify-center"
+                  className="flex gap-1  rounded-xl p-1 items-center justify-center"
                 >
                   <Image
                     src={github}

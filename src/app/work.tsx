@@ -38,7 +38,7 @@ const Work = () => {
                       height={50}
                     />
                   </span>
-                  <div className="w-full items-center justify-between p-4 bg-[#f2f2f2] border border-gray-200 rounded-lg shadow-sm ">
+                  <div className="w-full cursor-[url('/tetris.png')] items-center justify-between p-4 bg-[#e1b941]/50 text-white border-gray-700 border-[2.5px] rounded-lg shadow-black shadow-2xl">
                     <time className="mb-1 text-xs font-semibold text-[#444] sm:mb-0">
                       {item.startDate} - {item.endDate}
                     </time>
