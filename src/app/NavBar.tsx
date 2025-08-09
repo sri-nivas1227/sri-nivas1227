@@ -18,7 +18,7 @@ const NavBar = () => {
               // data-aos="fade-up"
             >
               <span className="">S</span>
-              <Image src="/favicon.ico" alt="Logo" className="w-8" />
+              <Image src="/favicon.ico" alt="Logo" width={32} height={32} className="w-8" />
               <span className="">M</span>
             </Link>
             <div className="flex gap-5 font-semibold text-xl">

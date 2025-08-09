@@ -19,12 +19,12 @@ const Work = () => {
       <hr className="md:w-1/3" />
       <div className="w-full md:grid md:grid-cols-[80%_20%] md:gap-5 p-6">
         <div className="py-2">
-          <ol className="relative my-3 border-s dark:border-[#94d2bd]">
+          <ol className="relative my-3 md:border-s dark:border-[#94d2bd]">
             {resumeData.workExperience
               .sort((a, b) => a.order - b.order)
               .map((item, index) => (
-                <li key={index} className="mb-10 ms-6">
-                  <span className="absolute flex items-center justify-center w-10 h-10 rounded-full -start-5 ring-2 ring-transparent bg-[#ffc] p">
+                <li key={index} className="mb-10 md:ms-6">
+                  <span className="hidden md:flex absolute  items-center justify-center w-10 h-10 rounded-full -start-5 ring-2 ring-transparent bg-[#ffc] md:p">
                     <Image
                       className="rounded-full shadow-lg"
                       src={item.companyIcon}
@@ -33,7 +33,7 @@ const Work = () => {
                       height={50}
                     />
                   </span>
-                  <div className="w-full items-center justify-between p-4 bg-[#94d2bd] text-black   rounded-lg shadow-black shadow-2xl">
+                  <div className="w-full items-center justify-between p-2 md:p-4 bg-[#94d2bd] text-black   rounded-lg shadow-black shadow-2xl">
                     <time className="mb-1 text-xs font-semibold text-[#333] sm:mb-0">
                       {item.startDate} - {item.endDate}
                     </time>

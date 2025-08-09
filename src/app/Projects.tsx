@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="w-4/5 text-black bg-[#94d2bd] py-3 border-[3px] border-black rounded-3xl shadow-2xl shadow-black/80 my-4">
       <h2 className="text-4xl text-center font-bold m-2">Projects</h2>
-      <div className="p-2 w-4/5 m-auto flex flex-col odd:justify-start even:justify-end ">
+      <div className="p-2 md:w-4/5 m-auto flex flex-col odd:justify-start even:justify-end ">
         {resumeData.projects
           .sort((a, b) => a.order - b.order)
           .map((item, index) => (
@@ -18,7 +18,7 @@ const Projects = () => {
             >
               <div
                 key={index}
-                className="w-1/2 hover:w-full transition-all my-2 bg-[#d75514] shadow-black border-[3px] border-black rounded-xl p-2 md:p-2 md:py-6 shadow-2xl grid md:grid-cols-[90%_10%] justify-between items-center"
+                className="w-full lg:w-1/2 lg:hover:w-full transition-all my-2 bg-[#d75514] shadow-black border-[3px] border-black rounded-xl p-2 md:p-2 md:py-6 shadow-2xl grid md:grid-cols-[90%_10%] justify-between items-center"
               >
                 <div className=" flex justify-around items-center ">
                   <Image
