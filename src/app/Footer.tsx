@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full mt-6 bg-[#5ca66b]/80 text-white  py-6 flex justify-around items-center">
+    <footer className="w-11/12 hover:w-full rounded-b-none rounded-3xl border-[3px] border-black mt-6 bg-[#335c67] text-white  py-6 flex justify-around items-center">
       <div className="text-center">
         <p>
           &copy; 2025 <span className="font-bold text-lg">Srinivas Mekela</span>

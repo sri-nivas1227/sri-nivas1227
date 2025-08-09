@@ -14,42 +14,33 @@ const Work = () => {
     });
   };
   return (
-    <div className="w-4/5 text-white">
-      <h2 className="text-3xl font-bold m-2">
-        <span className="text-[#4169e1]">P</span>
-        <span className="text-[#333]">rofessional </span>
-        <span className="text-[#4169e1]">E</span>
-        <span className="text-[#333]">xperience</span>
-      </h2>
+    <div className="w-4/5 text-white bg-[#d7371b] p-3 rounded-3xl border-[3px] border-black shadow-2xl shadow-black/50">
+      <h2 className="text-3xl font-bold mx-2">Professional Experience</h2>
       <hr className="md:w-1/3" />
-      <div className="w-full md:grid md:grid-cols-2 md:gap-5 p-8">
+      <div className="w-full md:grid md:grid-cols-[80%_20%] md:gap-5 p-6">
         <div className="py-2">
-          <ol className="relative my-3 border-s dark:border-[#333]">
+          <ol className="relative my-3 border-s dark:border-[#94d2bd]">
             {resumeData.workExperience
               .sort((a, b) => a.order - b.order)
               .map((item, index) => (
                 <li key={index} className="mb-10 ms-6">
-                  <span className="absolute flex items-center justify-center w-10 h-10 rounded-full -start-5 ring-2 ring-transparent">
+                  <span className="absolute flex items-center justify-center w-10 h-10 rounded-full -start-5 ring-2 ring-transparent bg-[#ffc] p">
                     <Image
                       className="rounded-full shadow-lg"
                       src={item.companyIcon}
-                      alt="Bonnie image"
+                      alt="Company image"
                       width={50}
                       height={50}
                     />
                   </span>
-                  <div className="w-full cursor-[url('/tetris.png')] items-center justify-between p-4 bg-[#e1b941]/50 text-white border-gray-700 border-[2.5px] rounded-lg shadow-black shadow-2xl">
-                    <time className="mb-1 text-xs font-semibold text-[#444] sm:mb-0">
+                  <div className="w-full items-center justify-between p-4 bg-[#94d2bd] text-black   rounded-lg shadow-black shadow-2xl">
+                    <time className="mb-1 text-xs font-semibold text-[#333] sm:mb-0">
                       {item.startDate} - {item.endDate}
                     </time>
-                    <div className="text-sm text-gray-500 dark:text-gray-300">
-                      <h4 className="font-bold text-[#333] text-2xl">
-                        {item.position}
-                      </h4>
-                      <p className="font-semibold text-[#444] text-sm">
-                        {item.company}
-                      </p>
-                      <ul className="px-3 text-[#333] text-xs md:text-base">
+                    <div className="text-sm ">
+                      <h4 className="font-bold  text-2xl">{item.position}</h4>
+                      <p className="font-semibold text-sm">{item.company}</p>
+                      <ul className="px-3  text-xs md:text-base">
                         {formatDescription(item.description)}
                       </ul>
                     </div>

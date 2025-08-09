@@ -5,6 +5,9 @@
 html {
   scroll-behavior: smooth;
 }
+html::-webkit-scrollbar {
+  display: none;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;

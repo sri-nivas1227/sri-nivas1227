@@ -7,32 +7,36 @@ const knewave = Knewave({
 
 const NavBar = () => {
   return (
-    <div className="w-full fixed p-2 z-10 bg-[#FAF3E0]">
-      <nav className="">
-        <div className="flex justify-between items-center">
-          <Link
-            href={"/"}
-            className={`text-3xl text-[#333] ${knewave.className} flex`}
-            // data-aos="fade-up"
-          >
-            <span className="text-[#4169E1]">S</span>
-            <span className="sm:block hidden">rinivas </span>
-            <span className="text-[#4169E1]">M</span>
-            <span className="sm:block hidden">ekala</span>
-          </Link>
-          <div className="flex gap-2 font-semibold text-xl text-[#444]">
-            <Link href={"/#about"} className="hover:text-[#333] cursor-pointer">
-              About
-            </Link>
+    <div className="fixed w-full top-0 z-30">
+      <div className="w-11/12 m-auto p-2 bg-[#001524] text-white py-4 rounded-b-3xl">
+        <nav className="">
+          <div className="w-4/5 m-auto flex justify-between items-center">
             <Link
-              href={"/contact"}
-              className="hover:text-[#333] cursor-pointer"
+              href={"/"}
+              className={`text-3xl ${knewave.className} flex items-baseline`}
+              // data-aos="fade-up"
             >
-              Contact
+              <span className="">S</span>
+              <img src="/favicon.ico" alt="Logo" className="w-8" />
+              <span className="">M</span>
             </Link>
+            <div className="flex gap-5 font-semibold text-xl">
+              <Link
+                href={"/#about"}
+                className="hover:text-[#ffa] cursor-pointer"
+              >
+                About
+              </Link>
+              <Link
+                href={"/contact"}
+                className="hover:text-[#ffa] cursor-pointer"
+              >
+                Contact
+              </Link>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
   );
 };
