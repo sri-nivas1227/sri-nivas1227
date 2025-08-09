@@ -12,7 +12,10 @@ const Projects = () => {
         {resumeData.projects
           .sort((a, b) => a.order - b.order)
           .map((item, index) => (
-            <div className="w-full flex odd:justify-start even:justify-end">
+            <div
+              key={index}
+              className="w-full flex odd:justify-start even:justify-end"
+            >
               <div
                 key={index}
                 className="w-1/2 hover:w-full transition-all my-2 bg-[#d75514] shadow-black border-[3px] border-black rounded-xl p-2 md:p-2 md:py-6 shadow-2xl grid md:grid-cols-[90%_10%] justify-between items-center"

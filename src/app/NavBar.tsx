@@ -1,4 +1,5 @@
 import { Knewave } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 const knewave = Knewave({
   subsets: ["latin"],
@@ -17,7 +18,7 @@ const NavBar = () => {
               // data-aos="fade-up"
             >
               <span className="">S</span>
-              <img src="/favicon.ico" alt="Logo" className="w-8" />
+              <Image src="/favicon.ico" alt="Logo" className="w-8" />
               <span className="">M</span>
             </Link>
             <div className="flex gap-5 font-semibold text-xl">
