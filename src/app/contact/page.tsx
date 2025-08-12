@@ -31,7 +31,7 @@ const Page = () => {
     setMessage("");
   };
   return (
-    <div className="w-full h-screen flex justify-center items-center">
+    <div className="pt-12 w-full h-screen flex justify-center items-center">
       <div className="grid md:grid-cols-2 p-4">
         <div className="order-last md:order-1">
           <div className="flex justify-center items-center">
