@@ -42,7 +42,7 @@ const SubmitButton = ({
   return (
     <button
       onClick={handleSubmit}
-      className="bg-yellow-400 text-black font-bold text-2xl p-2 rounded-md"
+      className="bg-black hover:bg-green-500 text-white font-bold text-2xl p-2 rounded-md"
     >
       Send
     </button>

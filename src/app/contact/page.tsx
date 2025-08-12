@@ -90,9 +90,12 @@ const Page = () => {
             to reach out to me.
           </p>
           <div className="py-4">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 border-[3px] border-black p-3 rounded-3xl bg-[#ff7d00]">
               <div className="flex flex-col">
-                <label htmlFor="name" className="text-gray-500 font-semibold">
+                <label
+                  htmlFor="name"
+                  className="text-black text-lg font-semibold"
+                >
                   Name
                 </label>
                 <input
@@ -100,11 +103,14 @@ const Page = () => {
                   id="name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="text-[#333] bg-gray-300 font-semibold p-2 rounded-md"
+                  className="text-[#333]  font-semibold p-2 rounded-md"
                 />
               </div>
               <div className="flex flex-col">
-                <label htmlFor="email" className="text-gray-500 font-semibold ">
+                <label
+                  htmlFor="email"
+                  className="text-black text-lg font-semibold "
+                >
                   Email
                 </label>
                 <input
@@ -112,13 +118,13 @@ const Page = () => {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="text-[#333] bg-gray-300 font-semibold p-2 rounded-md"
+                  className="text-[#333]  font-semibold p-2 rounded-md"
                 />
               </div>
               <div className="flex flex-col">
                 <label
                   htmlFor="subject"
-                  className="text-gray-500 font-semibold"
+                  className="text-black text-lg font-semibold"
                 >
                   Subject
                 </label>
@@ -127,13 +133,13 @@ const Page = () => {
                   id="subject"
                   value={subject}
                   onChange={(e) => setSubject(e.target.value)}
-                  className="text-[#333] bg-gray-300 font-semibold p-2 rounded-md"
+                  className="text-[#333]  font-semibold p-2 rounded-md"
                 />
               </div>
               <div className="flex flex-col">
                 <label
                   htmlFor="message"
-                  className="text-gray-500 font-semibold"
+                  className="text-black text-lg font-semibold"
                 >
                   Message
                 </label>
@@ -142,7 +148,7 @@ const Page = () => {
                   rows={5}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="text-[#333] bg-gray-300 font-semibold p-2 rounded-md"
+                  className="text-[#333]  font-semibold p-2 rounded-md"
                 />
               </div>
               <SubmitButton
