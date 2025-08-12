@@ -31,9 +31,9 @@ const Page = () => {
     setMessage("");
   };
   return (
-    <div className="pt-12 w-full h-screen flex justify-center items-center">
-      <div className="grid md:grid-cols-2 p-4">
-        <div className="order-last md:order-1">
+    <div className="bg-[#ffecd1] pt-24 min-h-screen w-full md:flex md:justify-center md:items-center">
+      <div className="w-full md:grid md:grid-cols-2 md:p-4">
+        <div className="">
           <div className="flex justify-center items-center">
             <Image
               src={srinivas}
@@ -69,28 +69,24 @@ const Page = () => {
               className="rounded-full invert cursor-pointer"
             />
           </div>
-          <div className="m-1 w-full flex justify-center items-center font-semibold ">
+          <div className="m-1 w-full flex justify-center items-center font-semibold">
             <div
               onClick={handleDownloadResume}
-              className="p-2 text-[#333] rounded-xl flex justify-center items-center gap-3 border w-fit cursor-pointer border-[#4169E1] group hover:bg-[#4169E1]  hover:text-white"
+              className="p-2 bg-black text-[#fff] hover:text-black rounded-xl flex justify-center items-center gap-3 border w-fit cursor-pointer border-[#ff7d00] hover:bg-[#ff7d00]"
             >
-              <Image
-                src={file}
-                alt="file icon"
-                className="group-hover:invert"
-              />
+              <Image src={file} alt="file icon" className="" />
               My Resume
             </div>
           </div>
         </div>
-        <div className="order-2">
-          <h2 className="text-3xl font-bold text-[#333]">Get In Touch</h2>
-          <p className="text-gray-500">
+        <div className="w-full">
+          <h2 className="px-2 text-3xl font-bold text-[#333]">Get In Touch</h2>
+          <p className="px-2 text-gray-500">
             I am always open to new opportunities and collaborations. Feel free
             to reach out to me.
           </p>
-          <div className="py-4">
-            <div className="flex flex-col gap-2 border-[3px] border-black p-3 rounded-3xl bg-[#ff7d00]">
+          <div className="w-full py-4">
+            <div className="w-3/4 m-auto flex flex-col gap-2 border-[3px] border-black p-3 rounded-3xl bg-[#ff7d00]">
               <div className="flex flex-col">
                 <label
                   htmlFor="name"
@@ -103,7 +99,7 @@ const Page = () => {
                   id="name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="text-[#333]  font-semibold p-2 rounded-md"
+                  className="text-[#333]   font-semibold p-2 rounded-md"
                 />
               </div>
               <div className="flex flex-col">
@@ -118,7 +114,7 @@ const Page = () => {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="text-[#333]  font-semibold p-2 rounded-md"
+                  className="text-[#333]   font-semibold p-2 rounded-md"
                 />
               </div>
               <div className="flex flex-col">
@@ -133,7 +129,7 @@ const Page = () => {
                   id="subject"
                   value={subject}
                   onChange={(e) => setSubject(e.target.value)}
-                  className="text-[#333]  font-semibold p-2 rounded-md"
+                  className="text-[#333]   font-semibold p-2 rounded-md"
                 />
               </div>
               <div className="flex flex-col">
@@ -148,7 +144,7 @@ const Page = () => {
                   rows={5}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="text-[#333]  font-semibold p-2 rounded-md"
+                  className="text-[#333]   font-semibold p-2 rounded-md"
                 />
               </div>
               <SubmitButton

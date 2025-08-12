@@ -29,7 +29,7 @@ export default function RootLayout({
       <body className={`${shantellSans.className} relative antialiased`}>
         <div className="bg-[#FAF3E0]">
           <NavBar />
-          <div className=" relative text-white">{children}</div>
+          <div className="text-white">{children}</div>
         </div>
       </body>
     </html>

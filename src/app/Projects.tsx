@@ -18,7 +18,7 @@ const Projects = () => {
             >
               <div
                 key={index}
-                className="w-full lg:w-1/2 lg:hover:w-full transition-all my-2 bg-[#d75514] shadow-black border-[3px] border-black rounded-xl p-2 md:p-2 md:py-6 shadow-2xl grid md:grid-cols-[90%_10%] justify-between items-center"
+                className="w-full lg:w-1/2 transition-all my-2 bg-[#d75514] shadow-black border-[3px] border-black rounded-xl p-2 md:p-2 md:py-6 shadow-2xl grid md:grid-cols-[90%_10%] justify-between items-center"
               >
                 <div className=" flex justify-around items-center ">
                   <Image
