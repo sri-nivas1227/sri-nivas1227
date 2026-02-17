@@ -1,6 +1,5 @@
 "use client";
 import About from "./About";
-import "aos/dist/aos.css";
 import { Knewave } from "next/font/google";
 import Work from "./work";
 import Projects from "./Projects";
