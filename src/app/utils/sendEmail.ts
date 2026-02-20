@@ -1,14 +1,5 @@
-import nodemailer from "nodemailer";
-
-const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.com",
-  port: 465,
-  secure: true,
-  auth: {
-    user: process.env.NEXT_PUBLIC_SMTP_SERVER_USERNAME,
-    pass: process.env.NEXT_PUBLIC_SMTP_SERVER_PASSWORD,
-  },
-});
+import { Resend } from "resend";
+const transporter = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async ({
   subject,
@@ -17,14 +8,10 @@ export const sendEmail = async ({
   subject: string;
   message: string;
 }) => {
-  console.log(
-    process.env.NEXT_PUBLIC_SENDER_EMAIL,
-    process.env.NEXT_PUBLIC_RECEIVER_EMAIL
-  );
-  console.log(subject, message);
-  return await transporter.sendMail({
-    to: process.env.NEXT_PUBLIC_RECEIVER_EMAIL,
+  return await transporter.emails.send({
+    from: "onboarding@srinivasmekala.dev",
+    to: process.env.RECEIVER_EMAIL!,
     subject: subject,
-    text: message,
+    html: `<p>${message}</p>`,
   });
 };
