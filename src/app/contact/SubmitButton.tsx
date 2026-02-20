@@ -32,6 +32,11 @@ const SubmitButton = ({
       })
       .then((res) => {
         if (res.status === 200) {
+          if(res.data.message === "fail"){
+            toast.error("Error sending email");
+            resetForm();
+            return;
+          }
           toast.success("Email sent successfully");
           resetForm();
         } else {
