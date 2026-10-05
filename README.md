@@ -17,5 +17,6 @@ I am currently working as a **.NET Backend Developer** at **CHSR** SUNY RF.
 
 <!-- my github statistics -->
 
-![](https://github-readme-stats.vercel.app/api?username=sri-nivas1227&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false)
+<!--![](https://github-readme-stats.vercel.app/api?username=sri-nivas1227&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false)
 ![](https://github-readme-streak-stats-eight.vercel.app/?user=sri-nivas1227&theme=tokyonight&hide_border=true)<br/>
+-->
