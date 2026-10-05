@@ -1,8 +1,8 @@
 # Hi There! I'm _`Sri`_ <img src="https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif" width="90">
 
-I'm a developer excited about coding and software architecture. I'm pursing an MS degree in Computer Science at UAlbany, NY, US.
+I'm a developer excited about coding and software architecture. Graduate from UAlbany with Masters in Computer Science.
 </br>
-I am currently working as a **.NET Backend Developer** at **CHSR** SUNY RF.
+I am currently working as a **Programmer/Analyst** at **CHSR** SUNY RF.
 
 ### Languages
 
